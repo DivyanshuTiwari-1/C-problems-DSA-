@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid challange</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap:5px;
+            grid-auto-rows: 800px;
+
+        }
+        .child{
+            background-color: aqua;
+            display: grid;
+        }
+        .subchild{
+            background-color: greenyellow;
+        }
+        .child-2{
+          grid-template-rows: repeat(2 1fr);
+          grid-gap:20px;
+        }
+        .child-3{
+          grid-template-rows: repeat(4 1fr);
+          grid-gap:20px;
+        }
+         .child-4{
+          grid-template-rows: repeat(8 1fr);
+          grid-gap:20px;
+        }
+         .child-5{
+          grid-template-rows: repeat(16 1fr);
+          grid-gap:20px;
+        }
+
+    </style>
+
+    <body>
+    <div class="container">
+        <div class="child"></div>
+       
+
+
+
+
+        <div class="child child-2">
+            <div class="subchild"></div>
+            <div class="subchild"></div>
+        </div>
+        <div class="child child-3">
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+    </div>
+        <div class="child child-4">
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div> 
+         <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+    </div>
+        <div class="child child-5">
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>  
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div> 
+         <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+        <div class="subchild"></div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+.body{
+    margin: 5px;
+    background-color: white;
+     color: blue;
+     text-align: center;
+     text-decoration: soild;
+ }
+
+
+
+@media screen and (width:600px) {
+    body {
+        color :rgb(9, 36, 217);
+       
+    }
+}
+@media (orientation :landscape){
+    body{
+            color: chartreuse;
+    }  
+}

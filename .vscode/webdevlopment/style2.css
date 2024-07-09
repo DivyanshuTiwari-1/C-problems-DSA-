@@ -1,0 +1,56 @@
+
+:root{
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 30px;
+    font-size: 17px;
+    padding: 20px;
+    width:auto;
+
+}
+.container{
+    background-color: #15ef94;
+    padding: 10px 20px 15px 20px;
+    border: 10px solid lightgray;
+    border-radius: 4px;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+   margin: auto;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+width: 100%;
+padding: 12px;
+border: 1px solid #4df406;
+border-radius: 5px;
+margin: 10px;
+}
+.mainheading{
+    text-align: center;
+    text-decoration: solid;
+    color:black;
+    
+ }
+ input[type="submit"]select{
+     background-color: blanchedalmond;
+     width: 100%;
+     
+     color: white;
+     padding: 5px 5px;
+     border :none;
+     border-radius: 2px;
+
+ }
+ 

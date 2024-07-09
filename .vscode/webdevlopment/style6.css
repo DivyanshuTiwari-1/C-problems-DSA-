@@ -1,0 +1,38 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    align-items: end;
+    cursor:pointer;
+    
+}
+.child{
+    width: 230px;
+    height: 400px;
+    padding:3em;
+    border-radius: 1em;
+    border: 5px groove blueviolet ;
+    border-color: rgb(255, 5, 5);
+   background-color: antiquewhite;
+   margin: 25px 25px 25px 25px ;
+   
+}
+
+
+.p{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+   padding: auto;
+}
+input[type="button"]{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 1em;
+    border: 5px red;
+    border-style: groove;
+    align-self: flex-end;
+
+}

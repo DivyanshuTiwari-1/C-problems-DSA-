@@ -1,0 +1,53 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+
+}
+body{
+    font: 14px,Georgia,serif;
+    background: #ccc;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section{
+    display: block;
+}
+h3{
+    margin: 0 0 10px 0;
+}
+p{
+    margin:0 0 20px 0;
+    
+}
+#fluidbar{
+    width: 70%;
+    margin: 60px,auto;
+    padding: 20px;
+    background: #eee;
+    overflow: hidden;
+}
+#sidebar{
+    width:35%;
+    float: left;
+}
+#sidebar ul{
+ list-style:none;
+}
+#sidebar ul li a{
+    color: #900;
+    text-decoration: none;
+    padding:3px 0;
+    display: block;
+}
+#maincontent{
+    width: 65%;
+    float: right;
+}
+
+/* normal flow 

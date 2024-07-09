@@ -1,0 +1,11 @@
+.heading{
+    background-color: rgb(85, 255, 0);
+    color: blue;
+}
+#box{
+    height: 300px;
+    width: 100px;
+    background-color: aquamarine;
+    color: white;
+    border: 1px solid black;
+}

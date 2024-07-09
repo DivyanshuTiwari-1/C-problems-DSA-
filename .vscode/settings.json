@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.html": "html",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "string": "cpp"
+    },
+    "liveServer.settings.port": 5501
+}
